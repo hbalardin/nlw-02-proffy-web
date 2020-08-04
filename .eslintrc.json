@@ -29,6 +29,9 @@
       "prettier"
   ],
   "rules": {
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/prop-types": "off",
+    "react/destructuring-assignment": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
